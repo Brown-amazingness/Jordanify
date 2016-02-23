@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AHKActionSheet.h"
 
 @interface ViewController : UIViewController
 
+@property UIImageView *imageView;
+
+@property UILabel *tutorialLabel;
+@property (weak, nonatomic) IBOutlet UIButton *menuButton;
+@property (weak, nonatomic) IBOutlet UIImageView *mainImageView;
+
+- (IBAction)menuButtonPressed:(UIButton *)sender;
+
+@property AHKActionSheet *menuActionSheet;
 
 @end
 

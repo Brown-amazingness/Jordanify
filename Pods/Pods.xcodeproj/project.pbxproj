@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01255D4342271147A9DB3198AF6FD564 /* UIWindow+AHKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BE67CB5843F7AEA9E1E8E456D513C2DC /* UIWindow+AHKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3287F4E2CA5C2038EA5035CE55C2A1BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		69E4D0437A1329C0ECEDE856FB0CE1E3 /* AHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9704CBB1237DAE3F276EF1E50D9DD64D /* AHKActionSheet.m */; };
+		7B994F860A2689DDC24B86BB2D6B15F1 /* UIWindow+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A10ECC62E8A3D5182B2656093A70C1BA /* UIWindow+AHKAdditions.m */; };
+		7D768DFE941C7350E8CD0888CB52D906 /* Pods-JordanMeme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03841EDAEBBFB743E05EF8F46B6BD5B1 /* Pods-JordanMeme-dummy.m */; };
+		BD124ECEAE6DB0ABF77ACDAFD75AB377 /* AHKActionSheet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D853BB2B0C536FD8ECB904A849B5B5 /* AHKActionSheet-dummy.m */; };
+		BE5E8C8512CDB9EE1558E71EE88A7510 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		C5AB454361B8B677E4D7EB02975BF0BC /* UIImage+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AABD934D5B0F5B46D012186379F6777 /* UIImage+AHKAdditions.m */; };
+		D2D5F52B0B213AC99FF3631C0194C481 /* AHKActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDF1115B93CF0D3D310B5D185EF041 /* AHKActionSheetViewController.m */; };
+		DF7A82BFC2441F21BE348080008A8FFB /* AHKActionSheetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B74E49C158F30727F1EFE1E1F1FC7500 /* AHKActionSheetViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E198F2D77F43012C32FD4787895D16BD /* AHKActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F81A09F36CB1FF4D089380796FC9EF /* AHKActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6483EF33E7186CBFC6DEA2272D4CFC8 /* UIImage+AHKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5930942A7BF4A9BCB90D141A95938CC5 /* UIImage+AHKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7E252D8E0C7F0030C963A69D9B0F45E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67AC8F1724F162AFF7D9B4C283405D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 388CF4FF9767275661FC3BCBB44A3458;
+			remoteInfo = AHKActionSheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03841EDAEBBFB743E05EF8F46B6BD5B1 /* Pods-JordanMeme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JordanMeme-dummy.m"; sourceTree = "<group>"; };
+		05F998649C66BD6624F515B197FFA37E /* Pods-JordanMeme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JordanMeme.release.xcconfig"; sourceTree = "<group>"; };
+		061C743A80EFE67DD65B78D8E0541514 /* Pods-JordanMeme-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JordanMeme-acknowledgements.plist"; sourceTree = "<group>"; };
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36F463E0BBAC4ADEC580E1D3921397CF /* Pods-JordanMeme-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JordanMeme-resources.sh"; sourceTree = "<group>"; };
+		5930942A7BF4A9BCB90D141A95938CC5 /* UIImage+AHKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AHKAdditions.h"; path = "Classes/UIImage+AHKAdditions.h"; sourceTree = "<group>"; };
+		5B583FBE184337C6574A9CFE9006BDE1 /* libAHKActionSheet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAHKActionSheet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FDDF1115B93CF0D3D310B5D185EF041 /* AHKActionSheetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AHKActionSheetViewController.m; path = Classes/AHKActionSheetViewController.m; sourceTree = "<group>"; };
+		6696040CAEC1376C8C999F25002CC83D /* AHKActionSheet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHKActionSheet-prefix.pch"; sourceTree = "<group>"; };
+		6AABD934D5B0F5B46D012186379F6777 /* UIImage+AHKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+AHKAdditions.m"; path = "Classes/UIImage+AHKAdditions.m"; sourceTree = "<group>"; };
+		9704CBB1237DAE3F276EF1E50D9DD64D /* AHKActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AHKActionSheet.m; path = Classes/AHKActionSheet.m; sourceTree = "<group>"; };
+		9CFAA7983F479A4AB5EB3DD9B4D89DC5 /* Pods-JordanMeme-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JordanMeme-frameworks.sh"; sourceTree = "<group>"; };
+		A10ECC62E8A3D5182B2656093A70C1BA /* UIWindow+AHKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+AHKAdditions.m"; path = "Classes/UIWindow+AHKAdditions.m"; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B74E49C158F30727F1EFE1E1F1FC7500 /* AHKActionSheetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AHKActionSheetViewController.h; path = Classes/AHKActionSheetViewController.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE67CB5843F7AEA9E1E8E456D513C2DC /* UIWindow+AHKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+AHKAdditions.h"; path = "Classes/UIWindow+AHKAdditions.h"; sourceTree = "<group>"; };
+		C3D853BB2B0C536FD8ECB904A849B5B5 /* AHKActionSheet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHKActionSheet-dummy.m"; sourceTree = "<group>"; };
+		CCF8F82EC5F9FF9EA6DEA5167EFCEDCC /* Pods-JordanMeme-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JordanMeme-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF47B5B6CCBC7405987A54E6C5ABE754 /* Pods-JordanMeme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JordanMeme.debug.xcconfig"; sourceTree = "<group>"; };
+		F6DF541D2D25DA1BB1A0926B0C94BC5C /* AHKActionSheet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHKActionSheet.xcconfig; sourceTree = "<group>"; };
+		F8189735A4EE65E151C499D4572F18DD /* libPods-JordanMeme.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JordanMeme.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F81A09F36CB1FF4D089380796FC9EF /* AHKActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AHKActionSheet.h; path = Classes/AHKActionSheet.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDA03F964EA05D5C0A3724BE760C732B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5E8C8512CDB9EE1558E71EE88A7510 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC89AE41D2F2C353905D71C0B861624A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3287F4E2CA5C2038EA5035CE55C2A1BC /* Foundation.framework in Frameworks */,
+				E7E252D8E0C7F0030C963A69D9B0F45E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02387EB9311006B1990E6484F526F977 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99CF6AE6CE1C748233A9F8034C987CB2 /* AHKActionSheet */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		19698D78DD7E57D9015D2786FF161837 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6DF541D2D25DA1BB1A0926B0C94BC5C /* AHKActionSheet.xcconfig */,
+				C3D853BB2B0C536FD8ECB904A849B5B5 /* AHKActionSheet-dummy.m */,
+				6696040CAEC1376C8C999F25002CC83D /* AHKActionSheet-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AHKActionSheet";
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50FAC7A6ACBA098109B1FB87A8554B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B583FBE184337C6574A9CFE9006BDE1 /* libAHKActionSheet.a */,
+				F8189735A4EE65E151C499D4572F18DD /* libPods-JordanMeme.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DF95FFAC8449342CD52D300FC6F2B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74F7B04A98538D6EBDDC9BB735B22DBD /* Pods-JordanMeme */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74F7B04A98538D6EBDDC9BB735B22DBD /* Pods-JordanMeme */ = {
+			isa = PBXGroup;
+			children = (
+				CCF8F82EC5F9FF9EA6DEA5167EFCEDCC /* Pods-JordanMeme-acknowledgements.markdown */,
+				061C743A80EFE67DD65B78D8E0541514 /* Pods-JordanMeme-acknowledgements.plist */,
+				03841EDAEBBFB743E05EF8F46B6BD5B1 /* Pods-JordanMeme-dummy.m */,
+				9CFAA7983F479A4AB5EB3DD9B4D89DC5 /* Pods-JordanMeme-frameworks.sh */,
+				36F463E0BBAC4ADEC580E1D3921397CF /* Pods-JordanMeme-resources.sh */,
+				CF47B5B6CCBC7405987A54E6C5ABE754 /* Pods-JordanMeme.debug.xcconfig */,
+				05F998649C66BD6624F515B197FFA37E /* Pods-JordanMeme.release.xcconfig */,
+			);
+			name = "Pods-JordanMeme";
+			path = "Target Support Files/Pods-JordanMeme";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				02387EB9311006B1990E6484F526F977 /* Pods */,
+				50FAC7A6ACBA098109B1FB87A8554B2E /* Products */,
+				65DF95FFAC8449342CD52D300FC6F2B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99CF6AE6CE1C748233A9F8034C987CB2 /* AHKActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F8F81A09F36CB1FF4D089380796FC9EF /* AHKActionSheet.h */,
+				9704CBB1237DAE3F276EF1E50D9DD64D /* AHKActionSheet.m */,
+				B74E49C158F30727F1EFE1E1F1FC7500 /* AHKActionSheetViewController.h */,
+				5FDDF1115B93CF0D3D310B5D185EF041 /* AHKActionSheetViewController.m */,
+				5930942A7BF4A9BCB90D141A95938CC5 /* UIImage+AHKAdditions.h */,
+				6AABD934D5B0F5B46D012186379F6777 /* UIImage+AHKAdditions.m */,
+				BE67CB5843F7AEA9E1E8E456D513C2DC /* UIWindow+AHKAdditions.h */,
+				A10ECC62E8A3D5182B2656093A70C1BA /* UIWindow+AHKAdditions.m */,
+				19698D78DD7E57D9015D2786FF161837 /* Support Files */,
+			);
+			path = AHKActionSheet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06E38B855B4B5B4BCFEC39E82B667293 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E198F2D77F43012C32FD4787895D16BD /* AHKActionSheet.h in Headers */,
+				DF7A82BFC2441F21BE348080008A8FFB /* AHKActionSheetViewController.h in Headers */,
+				E6483EF33E7186CBFC6DEA2272D4CFC8 /* UIImage+AHKAdditions.h in Headers */,
+				01255D4342271147A9DB3198AF6FD564 /* UIWindow+AHKAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		388CF4FF9767275661FC3BCBB44A3458 /* AHKActionSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7316A4F4B41871D4AFF5A7CC88A9D712 /* Build configuration list for PBXNativeTarget "AHKActionSheet" */;
+			buildPhases = (
+				3CA8A0207E211C65424467CA09CC75BE /* Sources */,
+				FC89AE41D2F2C353905D71C0B861624A /* Frameworks */,
+				06E38B855B4B5B4BCFEC39E82B667293 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHKActionSheet;
+			productName = AHKActionSheet;
+			productReference = 5B583FBE184337C6574A9CFE9006BDE1 /* libAHKActionSheet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7ED24CD63C4AEBAFC2374BFCB953E146 /* Pods-JordanMeme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8817A75518F89CCD366C3CBE58C61F6C /* Build configuration list for PBXNativeTarget "Pods-JordanMeme" */;
+			buildPhases = (
+				D765AEA07CFBC8A43D166B492413F382 /* Sources */,
+				DDA03F964EA05D5C0A3724BE760C732B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				882978A6D69D2901992478C11D96692C /* PBXTargetDependency */,
+			);
+			name = "Pods-JordanMeme";
+			productName = "Pods-JordanMeme";
+			productReference = F8189735A4EE65E151C499D4572F18DD /* libPods-JordanMeme.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 50FAC7A6ACBA098109B1FB87A8554B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388CF4FF9767275661FC3BCBB44A3458 /* AHKActionSheet */,
+				7ED24CD63C4AEBAFC2374BFCB953E146 /* Pods-JordanMeme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA8A0207E211C65424467CA09CC75BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD124ECEAE6DB0ABF77ACDAFD75AB377 /* AHKActionSheet-dummy.m in Sources */,
+				69E4D0437A1329C0ECEDE856FB0CE1E3 /* AHKActionSheet.m in Sources */,
+				D2D5F52B0B213AC99FF3631C0194C481 /* AHKActionSheetViewController.m in Sources */,
+				C5AB454361B8B677E4D7EB02975BF0BC /* UIImage+AHKAdditions.m in Sources */,
+				7B994F860A2689DDC24B86BB2D6B15F1 /* UIWindow+AHKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D765AEA07CFBC8A43D166B492413F382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D768DFE941C7350E8CD0888CB52D906 /* Pods-JordanMeme-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		882978A6D69D2901992478C11D96692C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHKActionSheet;
+			target = 388CF4FF9767275661FC3BCBB44A3458 /* AHKActionSheet */;
+			targetProxy = 67AC8F1724F162AFF7D9B4C283405D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FA353E8F7D3858FD4238F6ACEEE49BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F998649C66BD6624F515B197FFA37E /* Pods-JordanMeme.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2253921A1049043DED441E3458883EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DF541D2D25DA1BB1A0926B0C94BC5C /* AHKActionSheet.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHKActionSheet/AHKActionSheet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4752507A69A89822A4F266DE373B5936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF47B5B6CCBC7405987A54E6C5ABE754 /* Pods-JordanMeme.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		80F92CB6DF60C1842FFFA97563FBD04B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6DF541D2D25DA1BB1A0926B0C94BC5C /* AHKActionSheet.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHKActionSheet/AHKActionSheet-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7316A4F4B41871D4AFF5A7CC88A9D712 /* Build configuration list for PBXNativeTarget "AHKActionSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2253921A1049043DED441E3458883EC5 /* Debug */,
+				80F92CB6DF60C1842FFFA97563FBD04B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8817A75518F89CCD366C3CBE58C61F6C /* Build configuration list for PBXNativeTarget "Pods-JordanMeme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4752507A69A89822A4F266DE373B5936 /* Debug */,
+				0FA353E8F7D3858FD4238F6ACEEE49BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
