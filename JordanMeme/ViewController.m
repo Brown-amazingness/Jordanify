@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate,UIGestureRecognizerDelegate>
+{
+    CGSize jordanHeadSize;
+}
 
 @end
 
