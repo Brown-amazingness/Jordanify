@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D0FBD891C7EA2AB00B8E50B /* UIImageView+Jordan.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FBD881C7EA2AB00B8E50B /* UIImageView+Jordan.m */; };
 		1D8885321C7BDB2800E0E5CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8885311C7BDB2800E0E5CD /* main.m */; };
 		1D8885351C7BDB2800E0E5CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8885341C7BDB2800E0E5CD /* AppDelegate.m */; };
 		1D8885381C7BDB2800E0E5CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8885371C7BDB2800E0E5CD /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D0FBD871C7EA2AB00B8E50B /* UIImageView+Jordan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Jordan.h"; sourceTree = "<group>"; };
+		1D0FBD881C7EA2AB00B8E50B /* UIImageView+Jordan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Jordan.m"; sourceTree = "<group>"; };
 		1D88852D1C7BDB2800E0E5CD /* JordanMeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JordanMeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D8885311C7BDB2800E0E5CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D8885331C7BDB2800E0E5CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				1D8885341C7BDB2800E0E5CD /* AppDelegate.m */,
 				1D8885361C7BDB2800E0E5CD /* ViewController.h */,
 				1D8885371C7BDB2800E0E5CD /* ViewController.m */,
+				1D0FBD871C7EA2AB00B8E50B /* UIImageView+Jordan.h */,
+				1D0FBD881C7EA2AB00B8E50B /* UIImageView+Jordan.m */,
 				1D8885391C7BDB2800E0E5CD /* Main.storyboard */,
 				1D88853C1C7BDB2800E0E5CD /* Assets.xcassets */,
 				1D88853E1C7BDB2800E0E5CD /* LaunchScreen.storyboard */,
@@ -345,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D0FBD891C7EA2AB00B8E50B /* UIImageView+Jordan.m in Sources */,
 				1D8885381C7BDB2800E0E5CD /* ViewController.m in Sources */,
 				1D8885351C7BDB2800E0E5CD /* AppDelegate.m in Sources */,
 				1D8885321C7BDB2800E0E5CD /* main.m in Sources */,

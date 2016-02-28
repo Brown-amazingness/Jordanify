@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "AHKActionSheet.h"
+#import "UIImageView+Jordan.h"
 
 @interface ViewController : UIViewController
 
-@property UIImageView *imageView;
+@property UIImageView_Jordan *imageView;
 
 @property UILabel *tutorialLabel;
 @property (weak, nonatomic) IBOutlet UIButton *menuButton;

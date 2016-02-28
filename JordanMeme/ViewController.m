@@ -21,7 +21,7 @@
     [super viewDidLoad];
     
     
-    
+    jordanHeadSize = CGSizeMake(127, 127);
     
     
     
@@ -68,7 +68,7 @@
     __weak typeof(self) weakSelf = self;
 
     [menuActionSheet addButtonWithTitle:@"Test" image:nil type:AHKActionSheetButtonTypeDefault handler:^(AHKActionSheet *actionSheet) {
-        tutorialLabel.hidden = YES;
+        weakSelf.tutorialLabel.hidden = YES;
         picker = [[UIImagePickerController alloc] init];
         picker.delegate = weakSelf;
         picker.allowsEditing = NO;
@@ -92,14 +92,15 @@
 -(void)tapPoint:(UITapGestureRecognizer *)tap{
     tutorialLabel.hidden = YES;
     [imageView removeFromSuperview];
-    imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"jordanHead"]];
+    imageView = [[UIImageView_Jordan alloc]init];//:[UIImage imageNamed:@"jordanHead"]];
 
 
     CGPoint tapPoint = [tap locationInView:self.view];
 
 
     
-    imageView.frame = CGRectMake(tapPoint.x, tapPoint.y, 127, 127);
+    imageView.frame = CGRectMake(tapPoint.x, tapPoint.y, jordanHeadSize.width, jordanHeadSize.height);
+    
     imageView.center = tapPoint;
     [self.view addSubview:imageView];
     [self.view bringSubviewToFront:self.menuButton];
@@ -110,7 +111,12 @@
     
 }
 -(void)jordanPinched:(UIPinchGestureRecognizer *)pinch{
-    imageView.frame = CGRectMake(imageView.frame.origin.x, imageView.frame.origin.y, imageView.frame.size.width * pinch.scale -1.0, imageView.frame.size.height * pinch.scale -1.0);
+    imageView.transform = CGAffineTransformScale(imageView.transform, pinch.scale, pinch.scale);
+    jordanHeadSize.height = imageView.frame.size.height;
+    jordanHeadSize.width = imageView.frame.size.width;
+    pinch.scale = 1;
+    
+    
 }
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info{
     UIImage *chosenImage = info[UIImagePickerControllerOriginalImage];
