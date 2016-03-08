@@ -82,3 +82,12 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-JordanMeme/AHKActionSheet.framework"
+  install_framework "Pods-JordanMeme/KCFloatingActionButton.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-JordanMeme/AHKActionSheet.framework"
+  install_framework "Pods-JordanMeme/KCFloatingActionButton.framework"
+fi

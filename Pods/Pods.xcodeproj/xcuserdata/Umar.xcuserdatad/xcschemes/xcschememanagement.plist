@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KCFloatingActionButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JordanMeme.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>388CF4FF9767275661FC3BCBB44A3458</key>
+		<key>1D12C6FA990D2FA3B22C437F2FCB636F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7ED24CD63C4AEBAFC2374BFCB953E146</key>
+		<key>7CD483F08A2AC430A4F47E66B4025664</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D17FAFD88CED3AC2161294ACB50D526A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
