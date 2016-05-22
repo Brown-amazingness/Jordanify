@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10112" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -20,35 +19,83 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IvN-5u-YQM">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <color key="backgroundColor" red="0.15294117647058825" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmr-n8-XOg">
-                                <rect key="frame" x="524" y="524" width="56" height="56"/>
-                                <color key="backgroundColor" red="0.23137254900000001" green="0.50588235290000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="56" id="Leo-m6-fhj"/>
-                                    <constraint firstAttribute="height" constant="56" id="NXT-sh-Aip"/>
-                                    <constraint firstAttribute="width" secondItem="hmr-n8-XOg" secondAttribute="height" multiplier="1:1" id="lyL-Ku-7sD"/>
-                                </constraints>
-                                <state key="normal" image="plus"/>
-                                <connections>
-                                    <action selector="menuButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mw7-vG-7fW"/>
-                                </connections>
-                            </button>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihz-5E-aWF">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.18417467948717947" green="0.18417467948717947" blue="0.18417467948717947" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem image="Camera" style="plain" id="Idy-R7-Qma">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vx4-GA-XEe">
+                                            <rect key="frame" x="20" y="11" width="80" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                            <inset key="titleEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="Import" image="Camera"/>
+                                            <connections>
+                                                <action selector="importButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Tw-FK-nP6"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XYP-ct-V0w"/>
+                                    <barButtonItem image="Camera" style="plain" id="XDa-ZQ-7k8">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Ar-p6-MFz">
+                                            <rect key="frame" x="180" y="11" width="80" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                            <inset key="titleEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="Clear" image="Clear"/>
+                                            <connections>
+                                                <action selector="clearBarButtonItemPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjv-PC-iTt"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bKc-mN-Icm"/>
+                                    <barButtonItem image="Camera" style="plain" id="xL9-HT-6fU">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Tdx-xW-TnJ">
+                                            <rect key="frame" x="340" y="11" width="80" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                            <inset key="titleEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="Undo" image="Undo"/>
+                                            <connections>
+                                                <action selector="undoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F8E-zG-mic"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="p5t-dW-bKd"/>
+                                    <barButtonItem image="Camera" style="plain" id="yVW-06-SYa">
+                                        <button key="customView" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Oeq-Ku-jCr">
+                                            <rect key="frame" x="500" y="11" width="80" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                            <inset key="titleEdgeInsets" minX="7" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                            <state key="normal" title="Share" image="Share"/>
+                                            <connections>
+                                                <action selector="shareButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g9N-wa-N4c"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="IvN-5u-YQM" secondAttribute="trailing" constant="-20" id="1bn-1u-MmE"/>
                             <constraint firstItem="IvN-5u-YQM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="2ff-q3-MT4"/>
                             <constraint firstItem="IvN-5u-YQM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="7NC-kJ-cyp"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hmr-n8-XOg" secondAttribute="bottom" constant="20" id="bcq-IB-EAx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ihz-5E-aWF" secondAttribute="trailing" constant="-20" id="dZQ-bI-IV0"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IvN-5u-YQM" secondAttribute="bottom" id="hbT-r4-6Js"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hmr-n8-XOg" secondAttribute="trailing" id="m1m-fw-7J3"/>
+                            <constraint firstItem="ihz-5E-aWF" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottomMargin" id="hsh-u5-yYN"/>
+                            <constraint firstItem="ihz-5E-aWF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="sq3-2t-qTr"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="mainImageView" destination="IvN-5u-YQM" id="Lh9-hP-zXU"/>
-                        <outlet property="menuButton" destination="hmr-n8-XOg" id="3q2-FF-aDN"/>
+                        <outlet property="mainToolBar" destination="ihz-5E-aWF" id="Vvq-0g-MeO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -57,6 +104,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="plus" width="30" height="30"/>
+        <image name="Camera" width="26" height="21"/>
+        <image name="Clear" width="25" height="25"/>
+        <image name="Share" width="22" height="30"/>
+        <image name="Undo" width="30" height="24"/>
     </resources>
 </document>
